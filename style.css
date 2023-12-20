@@ -1,0 +1,29 @@
+html {
+    font-family: Tahoma;
+}
+
+body {
+    text-align: center;
+}
+
+canvas {
+  display:none;
+}
+
+#asciiArtContainer {
+    white-space: pre;
+    font-size: 8px;
+    font-family: monospace;
+    line-height: 0.9;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #363636;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

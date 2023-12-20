@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCII Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Image to ASCII Art Converter</h1>
+    <h2>made by Braien Barvid</h2>
+    <p>Upload a custom image and with the click of a button, convert it into ASCII art!</p>
+  <div>
+    <label for="imageInput">Select an Image:</label>
+    <input type="file" id="imageInput" accept="image/*, .gif">
+  </div>
+  <div>
+    <label for="outputWidth">Desired Width for ASCII Art (max 1000):</label>
+    <input type="number" id="outputWidth" value="100" min="1" max = "1000"step="1">
+  </div>
+    <canvas id="outputCanvas" width="400" height="300"></canvas>
+    <button id="convertButton">Convert to ASCII Art</button>
+    <div id="asciiArtContainer"></div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
